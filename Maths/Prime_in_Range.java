@@ -1,3 +1,5 @@
+package Maths;
+
 import java.util.Scanner;
 
 public class Prime_in_Range {

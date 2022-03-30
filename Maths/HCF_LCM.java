@@ -1,12 +1,14 @@
+package Maths;
+
 import java.util.Scanner;
 
 public class HCF_LCM{
     public static void main(String[] args) {
         int hcf=1,lcm=0,max=0,other=0;
         System.out.println("Enter two nos.");
-        Scanner sc= new Scanner(System.in);
-        int num1=sc.nextInt();
-        int num2=sc.nextInt(); 
+        Scanner scn= new Scanner(System.in);
+        int num1=scn.nextInt();
+        int num2=scn.nextInt(); 
         if(num1>num2){
             max=num1;
             other=num2;
