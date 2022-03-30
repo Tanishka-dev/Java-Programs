@@ -58,7 +58,7 @@ public class Tree {
       System.out.print(root.data+ " ");
       inOrder(root.right);
    }
-   public static void inOrder_queue(Node root){
+   public static void levelOrder(Node root){
       if(root==null)
         return;
       Queue<Node> q= new LinkedList<>();
@@ -258,7 +258,7 @@ Check(int sum, boolean isSum){
        postOrder(root);
        System.out.println();
        System.out.println("Tree-");
-       inOrder_queue(root);
+       levelOrder(root);
        System.out.println("Number of nodes- "+ countNodes(root));
        System.out.println("Sum of nodes- "+ sumOfNodes(root));
        System.out.println("Height of Tree- "+ heightOfTree(root));
